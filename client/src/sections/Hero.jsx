@@ -166,6 +166,8 @@ export default function Hero() {
             </motion.button>
             <motion.a
               href={data.resumeUrl}
+              target="_blank"
+              rel="noreferrer"
               download="Monish_Resume.pdf"
               whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
               className="glass"

@@ -50,7 +50,12 @@ export default function Footer() {
                 <Icon size={16} />
               </motion.a>
             ))}
-            <motion.a href={data.resumeUrl} download="Monish_Resume.pdf" whileHover={{ scale: 1.04 }}
+            <motion.a
+              href={data.resumeUrl}
+              target="_blank"
+              rel="noreferrer"
+              download="Monish_Resume.pdf"
+              whileHover={{ scale: 1.04 }}
               className="glass"
               style={{
                 display: 'flex', alignItems: 'center', gap: '6px',
